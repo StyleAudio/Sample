@@ -326,7 +326,7 @@ We randomly select unseen singers from the test set as target samples and differ
 
 **Language:** Chinese
 
-<table style='width: 60%;'>
+<table style='width: 40%;'>
 	<thead>
 		<tr>
 			<th style='text-align: center'>Prompt</th>
@@ -346,11 +346,10 @@ We randomly select unseen singers from the test set as target samples and differ
 
 **Language:** English
 
-<table style='width: 60%;'>
+<table style='width: 40%;'>
 	<thead>
 		<tr>
 			<th style='text-align: center'>Prompt</th>
-			<th style='text-align: center'>Ground Truth</th>
 			<th style='text-align: center'>CusSinger</th>
 		</tr>
 	</thead>
@@ -367,11 +366,10 @@ We randomly select unseen singers from the test set as target samples and differ
 
 **Language:** French
 
-<table style='width: 60%;'>
+<table style='width: 40%;'>
 	<thead>
 		<tr>
 			<th style='text-align: center'>Prompt</th>
-			<th style='text-align: center'>Ground Truth</th>
 			<th style='text-align: center'>CusSinger</th>
 		</tr>
 	</thead>
@@ -389,11 +387,10 @@ We randomly select unseen singers from the test set as target samples and differ
 
 **Language:** Russian
 
-<table style='width: 60%;'>
+<table style='width: 40%;'>
 	<thead>
 		<tr>
 			<th style='text-align: center'>Prompt</th>
-			<th style='text-align: center'>Ground Truth</th>
 			<th style='text-align: center'>CusSinger</th>
 		</tr>
 	</thead>
