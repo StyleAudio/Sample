@@ -271,7 +271,7 @@ Multi-level styles are randomly assigned in a manner that is appropriate for the
 		<tr>
 			<th style='text-align: center; font-weight: normal;'>Japanese</th>
 			<th style='text-align: center; font-weight: normal;'>誰もいないステジ</th>
-			<th style='text-align: center; font-weight: normal;'>A female singer with an tenor vocal range performs a sad pop song. He sings with the mixed voice technique.</th>
+			<th style='text-align: center; font-weight: normal;'>A male singer with an tenor vocal range performs a sad pop song. He sings with the mixed voice technique.</th>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/sc/cus/004.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
