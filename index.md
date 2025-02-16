@@ -21,7 +21,7 @@ Customizable multilingual zero-shot singing voice synthesis (SVS) has various po
 
 For the parallel experiments, we randomly select samples with unseen singers from the test set as target voices and use different utterances from the same singers to form prompts. We also input music scores as contents.
 
-1.**Target Lyric:** 也许我一直害怕有答案，也许爱静静在风里打转
+1.**Target Lyric:** 入夜渐微凉，繁花落地成霜，你在远方眺望，耗尽所有暮光，不思量
 
 **Language:** Chinese
 
