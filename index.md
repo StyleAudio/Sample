@@ -311,7 +311,7 @@ Multi-level styles are randomly assigned in a manner that is appropriate for the
 	</tbody>
 	<tbody>
 		<tr>
-			<th style='text-align: center; font-weight: normal;'>A female singer with an alto vocal range performs a pop song. She begins with no techniques in the first half of the song (three words), before transitioning into falsetto for the second half (about five words).</th>
+			<th style='text-align: center; font-weight: normal;'>A female singer with an alto vocal range performs a pop song. She begins with the breathy techniques in the first half of the song (three words), before transitioning into falsetto for the second half (about five words).</th>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unsc/004.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
