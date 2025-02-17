@@ -21,48 +21,7 @@ Customizable multilingual zero-shot singing voice synthesis (SVS) has various po
 
 For the parallel experiments, we randomly select samples with unseen singers from the test set as target voices and use different utterances from the same singers to form prompts. We also input music scores as contents.
 
-1.**Target Lyric:** 入夜渐微凉，繁花落地成霜，你在远方眺望，耗尽所有暮光，不思量
-
-**Language:** Chinese
-
-<table style='width: 40%;'>
-	<thead>
-		<tr>
-			<th style='text-align: center'>Prompt</th>
-			<th style='text-align: center'>Ground Truth</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/prompt/001.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/gt/001.wav' type='audio/wav'></audio></td>
-		</tr>
-	</tbody>
-</table>
-
-<table style='width: 100%;'>
-	<thead>
-		<tr>
-			<th style='text-align: center'>StyleTTS 2</th>
-		<th style='text-align: center'>CosyVoice</th>
-			<th style='text-align: center'>VISinger 2</th>
-			<th style='text-align: center'>TCSinger</th>
-			<th style='text-align: center'>CusSinger</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/001.wav' type='audio/wav'></audio></td>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/cosy/001.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/vi/001.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/001.wav' type='audio/wav'></audio></td>
-				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/cus/001.wav' type='audio/wav'></audio></td>
-		</tr>
-	</tbody>
-</table>
-
-
-2.**Target Lyric:** 回忆里想起模糊的小时候，云朵漂浮在蓝蓝的天空
+1.**Target Lyric:** 回忆里想起模糊的小时候，云朵漂浮在蓝蓝的天空
 
 **Language:** Chinese
 
@@ -102,6 +61,46 @@ For the parallel experiments, we randomly select samples with unseen singers fro
 	</tbody>
 </table>
 
+
+2.**Target Lyric:** 入夜渐微凉，繁花落地成霜，你在远方眺望，耗尽所有暮光，不思量
+
+**Language:** Chinese
+
+<table style='width: 40%;'>
+	<thead>
+		<tr>
+			<th style='text-align: center'>Prompt</th>
+			<th style='text-align: center'>Ground Truth</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/prompt/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/gt/001.wav' type='audio/wav'></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style='text-align: center'>StyleTTS 2</th>
+		<th style='text-align: center'>CosyVoice</th>
+			<th style='text-align: center'>VISinger 2</th>
+			<th style='text-align: center'>TCSinger</th>
+			<th style='text-align: center'>CusSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/style/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/cosy/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/vi/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/tc/001.wav' type='audio/wav'></audio></td>
+				<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/cus/001.wav' type='audio/wav'></audio></td>
+		</tr>
+	</tbody>
+</table>
 
 3.**Target Lyric:** how to be brave,how can I love when I'm afraid
 
@@ -281,7 +280,7 @@ Multi-level styles are randomly assigned in a manner that is appropriate for the
 
 Multi-level styles are randomly assigned in a manner that is appropriate for the context. In the parallel experiments, we randomly select unseen audio from the test set, using the ground truth (GT) textual prompts as the target. These styles include global timbre (such as the singer's gender and vocal range), singing method (e.g., bel canto and pop), emotion (e.g., happy and sad), and segment-level or word-level techniques (such as mixed voice, falsetto, breathy, vibrato, glissando, and pharyngeal). We also input the same music scores as contents.
 
-**Target Lyric:** 当微风带着收获的味道，吹向我脸庞
+**Target Lyric:** 一壶清酒一生尘灰
 
 **Language:** Chinese
 
@@ -294,25 +293,25 @@ Multi-level styles are randomly assigned in a manner that is appropriate for the
 	</thead>
 	<tbody>
 		<tr>
-			<th style='text-align: center; font-weight: normal;'>A male singer with an tenor vocal range performs a pop song.</th>
+			<th style='text-align: center; font-weight: normal;'>A female singer with an alto vocal range performs a pop song.</th>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unsc/001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 	<tbody>
 		<tr>
-			<th style='text-align: center; font-weight: normal;'>A male singer with an bass vocal range performs a pop song.</th>
+			<th style='text-align: center; font-weight: normal;'>A male singer with an tenor vocal range performs a pop song.</th>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unsc/002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 	<tbody>
 		<tr>
-			<th style='text-align: center; font-weight: normal;'>A male singer with an tenor vocal range performs a pop song. He sings with the breathy technique in the whole segment.</th>
+			<th style='text-align: center; font-weight: normal;'>A female singer with an alto vocal range performs a pop song. She sings with the breathy technique in the whole segment.</th>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unsc/003.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 	<tbody>
 		<tr>
-			<th style='text-align: center; font-weight: normal;'>A male singer with an tenor vocal range performs a pop song. He begins with no techniques in the first half of the song (seven words), before transitioning into falsetto for the second half (about eight words).</th>
+			<th style='text-align: center; font-weight: normal;'>A female singer with an alto vocal range performs a pop song. She begins with no techniques in the first half of the song (three words), before transitioning into falsetto for the second half (about five words).</th>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unsc/004.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
