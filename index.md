@@ -25,6 +25,8 @@ For the parallel experiments, we randomly select samples with unseen singers fro
 
 **Language:** Chinese
 
+Successfully transferred timbre, accent, enunciation, pop singing method, emotion.
+
 <table style='width: 40%;'>
 	<thead>
 		<tr>
@@ -66,6 +68,8 @@ For the parallel experiments, we randomly select samples with unseen singers fro
 
 **Language:** Chinese
 
+Successfully transferred timbre, accent, enunciation, pop singing method.
+
 <table style='width: 40%;'>
 	<thead>
 		<tr>
@@ -106,6 +110,8 @@ For the parallel experiments, we randomly select samples with unseen singers fro
 
 **Langugae:** English
 
+Successfully transferred timbre, accent, enunciation, pop singing method, and mixed voice technique.
+
 <table style='width: 40%;'>
 	<thead>
 		<tr>
@@ -145,6 +151,8 @@ For the parallel experiments, we randomly select samples with unseen singers fro
 4.**Target Lyric:** allons, en garde, allons, allons, ah toréador
 
 **Language:** French
+
+Successfully transferred timbre, accent, enunciation, bel canto singing method.
 
 <table style='width: 40%;'>
 	<thead>
@@ -190,6 +198,8 @@ Additionally, we utilize unseen test data with different lyric languages (such a
 
 **Language:** From English to Chinese
 
+Successfully transferred timbre, accent, enunciation, pop singing method.
+
 <table style='width: 40%;'>
 	<thead>
 		<tr>
@@ -209,6 +219,8 @@ Additionally, we utilize unseen test data with different lyric languages (such a
 2.**Target Lyric:** or do you need more, is there something you're searching
 
 **Language:** From Japanese to English
+
+Successfully transferred timbre, accent, enunciation, pop singing method.
 
 <table style='width: 40%;'>
 	<thead>
@@ -325,6 +337,8 @@ We randomly select unseen singers from the test set as target samples and differ
 
 **Language:** Chinese
 
+Successfully transferred timbre, accent, enunciation.
+
 <table style='width: 40%;'>
 	<thead>
 		<tr>
@@ -344,6 +358,8 @@ We randomly select unseen singers from the test set as target samples and differ
 2.**Target Lyric:** Anytime you whisper my name, you'll see
 
 **Language:** English
+
+Successfully transferred timbre, accent, enunciation.
 
 <table style='width: 40%;'>
 	<thead>
@@ -365,6 +381,8 @@ We randomly select unseen singers from the test set as target samples and differ
 
 **Language:** French
 
+Successfully transferred timbre, accent, enunciation.
+
 <table style='width: 40%;'>
 	<thead>
 		<tr>
@@ -385,6 +403,8 @@ We randomly select unseen singers from the test set as target samples and differ
 как это больно
 
 **Language:** Russian
+
+Successfully transferred timbre, accent, enunciation.
 
 <table style='width: 40%;'>
 	<thead>
