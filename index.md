@@ -237,6 +237,43 @@ Successfully transferred timbre, accent, enunciation, pop singing method.
 	</tbody>
 </table>
 
+## Non-parallel Style Transfer
+
+Additionally, we employ unseen test data with different styles to generate the same content in entirely distinct ways from the original version. We also use music scores as input content.
+
+It is evident that the timbre, accent, and enunciation have been successfully transferred. In addition, the first example successfully transfers the emotional expression of the singing, the second captures the falsetto technique, and the third reproduces the breathy technique.
+
+**Target Lyric:** 雨到了这里缠成线，缠着我们流连人世间
+
+**Language:** Chinese
+
+<table style='width: 100%;'>
+	<thead>
+		<tr>
+			<th style='text-align: center'>Prompt Audio</th>
+			<th style='text-align: center'>CusSinger</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unst/prompt/003.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unst/cus/003.wav' type='audio/wav'></audio></td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unst/prompt/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unst/cus/002.wav' type='audio/wav'></audio></td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unst/prompt/001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/unst/cus/003.wav' type='audio/wav'></audio></td>
+		</tr>
+	</tbody>
+</table>
+
 ---
 
 # Style Control
